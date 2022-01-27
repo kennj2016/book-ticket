@@ -1,0 +1,198 @@
+:local(.layout_master) {
+  background: #ffffff !important;
+}
+
+:local(.sidebar) {
+  background: black !important;
+  border-right: 1px solid #dedede;
+  height: 100vh;
+  position: sticky !important;
+  top: 0
+}
+
+
+:local(.right_layout) {
+  height: 100vh;
+  background: #ffffff !important;
+  padding: 0px 0 0px 0;
+}
+
+.ant-popover {
+  z-index: 9999999;
+}
+
+:local(.right_content) {
+  margin: 0;
+}
+
+.ant-dropdown {
+  z-index: 222222;
+}
+
+.table-user .ant-table-thead > tr > th .ant-table-header-column {
+  display: block;
+}
+
+.table-user thead tr th {
+  text-align: center;
+}
+
+.header-top {
+  background: #ffffff;
+  border-bottom: 1px solid #ced0d6;
+  padding: 0;
+  height: 100px;
+  display: none;
+
+  .ht-right{
+    float: left;
+    width: calc(100% - 250px);
+    .ant-menu-horizontal > .ant-menu-item > a:hover {
+      color: initial;
+    }
+    .power-by div:first-child {
+      float: left;
+      width: 101px;
+      text-align: right;
+      padding-right: 20px;
+    }
+    .power-by div:last-child {
+      float: left;
+      width: 65px;
+      text-align: left;
+      padding-left: 10px;
+    }
+    .power-by img {
+      float: left;
+      border-radius: 4px;
+    }
+    .power-by {
+      padding: 15px 0;
+    }
+    .power-by p {
+      line-height: 1em;
+      margin-bottom: 0;
+
+    }
+    li.ant-menu-item {
+      height: 100px;
+      line-height: 100px;
+      padding: 0px 10px;
+    }
+    .ant-menu-horizontal > .ant-menu-item:hover {
+      border-bottom: 0px solid #1890ff;
+      color: initial;
+    }
+  }
+
+  .ant-dropdown-menu-item .anticon {
+    margin-right: 5px;
+  }
+  .table-user thead th {
+    padding: 16px 0 !important;
+  }
+  .ant-menu-horizontal i.anticon.anticon-user {
+    font-size: 20px !important;
+    margin: 0;
+  }
+  .ant-menu-horizontal {
+
+    background: none;
+    border-bottom: 0;
+  }
+  .ht-left {
+    width: 250px;
+    text-align: center;
+    float: left;
+  }
+  .ant-btn.ant-btn-primary {
+    background: white;
+    border: 1px solid #4b4b4b;
+    color: black;
+    border-radius: 0;
+    padding: 0px 30px;
+    width: 150px;
+  }
+  i.anticon.anticon-plus-circle {
+    border-radius: 50%;
+    font-size: 16px;
+    color: #292525;
+  }
+
+}
+
+.ant-menu-root.ant-menu-vertical {
+  border-right: 0;
+}
+
+:local(.layout_master) .trigger {
+  font-size: 18px;
+  line-height: 64px;
+  padding: 0 24px;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+:local(.right_layout) {
+  height: 100%;
+  background: #ffffff !important;
+
+}
+
+:local(.right_content) {
+  margin: 0;
+}
+
+@media screen and (min-width: 1200px) {
+  :local(.right_layout) {
+    height: 100vh;
+    background: #ffffff !important;
+
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+
+  main.ant-layout-content{
+    padding-bottom: 80px;
+  }
+
+  :local(.right_content) {
+    height: 100%;
+    padding-bottom: 130px;
+    padding-top: 50px;
+  }
+
+  .page-book-schedule :local(.right_layout) {
+    height: 100vh;
+    background: #ffffff !important;
+
+  }
+
+  .page-book-booking-review :local(.right_layout) {
+    height: 100vh;
+    overflow: scroll;
+
+  }
+
+  .page-book-photographers :local(.right_layout) {
+    height: 100%;
+  }
+}
+
+@media screen and (min-color-index: 0) and(-webkit-min-device-pixel-ratio: 0) and (max-width: 768px) {
+
+    :local(.right_layout) {
+      height: 100%;
+    }
+
+}
+
+@media screen and (min-resolution: .001dpcm) and (max-width: 768px) {
+
+    :local(.right_layout) {
+      height: 100%;
+    }
+
+}

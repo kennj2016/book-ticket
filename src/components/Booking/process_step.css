@@ -1,0 +1,39 @@
+.ant-steps-step{
+    cursor: pointer;
+
+}
+.ant-steps .ant-steps-title{
+    font-size: 11px;
+}
+
+.steps-action{
+    display: block;
+    width: 100%;
+    overflow: hidden;
+}
+.page-home .steps-action,.page-book .steps-action{display: none}
+
+
+.navigate-mobile .anticon{
+    margin:0 6px;
+}
+.navigate-mobile {    position: fixed;
+    bottom: 0;
+    background: white;
+    z-index: 2111;
+    width: 100%;
+    left: 0;
+}
+.navigate-mobile span:nth-child(1){
+    background: #242527 !important;
+    border-right: 1px solid #353638;
+}
+.navigate-mobile span{
+    background:#242527;
+    color: white;
+    width: 50%;
+    text-align: center;
+    padding: 10px 0px;
+    height: 41px;
+
+}

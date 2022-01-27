@@ -1,0 +1,160 @@
+{
+  "name": "photosesh-react",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@ant-design/icons": "^4.1.0",
+    "antd": "3.15.2",
+    "antd-mobile": "^1.6.11",
+    "autoprefixer": "7.1.1",
+    "axios": "^0.16.2",
+    "babel-core": "6.25.0",
+    "babel-eslint": "7.2.3",
+    "babel-jest": "20.0.3",
+    "babel-loader": "7.0.0",
+    "babel-preset-react-app": "^3.1.2",
+    "babel-runtime": "6.23.0",
+    "base-64": "^0.1.0",
+    "bootstrap": "^4.3.1",
+    "braintree-web": "^3.54.1",
+    "case-sensitive-paths-webpack-plugin": "2.1.1",
+    "chalk": "1.1.3",
+    "classnames": "^2.2.6",
+    "core-js": "^2.6.9",
+    "create-react-class": "^15.6.2",
+    "css-loader": "0.28.4",
+    "dateformat": "^2.2.0",
+    "dotenv": "4.0.0",
+    "draft-js-export-html": "^1.3.3",
+    "draftjs-to-html": "^0.8.4",
+    "eslint": "3.19.0",
+    "eslint-config-react-app": "^1.0.5",
+    "eslint-loader": "1.7.1",
+    "eslint-plugin-flowtype": "2.34.0",
+    "eslint-plugin-import": "2.2.0",
+    "eslint-plugin-jsx-a11y": "5.0.3",
+    "eslint-plugin-react": "7.1.0",
+    "express": "^4.17.1",
+    "extract-text-webpack-plugin": "2.1.2",
+    "fb": "^2.0.0",
+    "file-loader": "0.11.2",
+    "file-saver": "^2.0.5",
+    "fs-extra": "3.0.1",
+    "google-maps-react": "^1.1.0",
+    "handle-thing": "^1.2.5",
+    "html-to-draftjs": "^1.4.0",
+    "html-webpack-plugin": "2.29.0",
+    "jest": "20.0.4",
+    "jquery": "^3.4.1",
+    "jwt-decode": "^2.2.0",
+    "linkedin-login-for-react": "^1.3.0",
+    "lodash": "^4.17.11",
+    "moment": "^2.24.0",
+    "object-assign": "4.1.1",
+    "postcss-flexbugs-fixes": "3.0.0",
+    "postcss-loader": "2.0.6",
+    "promise": "^7.1.1",
+    "prop-types": "^15.7.2",
+    "pusher-js": "^4.4.0",
+    "query-string": "^5.0.1",
+    "react": "^16.13.1",
+    "react-addons-css-transition-group": "^15.6.2",
+    "react-addons-update": "^15.6.2",
+    "react-color": "^2.17.3",
+    "react-dev-utils": "^3.1.3",
+    "react-device-detect": "^0.1.0",
+    "react-dom": "^16.13.1",
+    "react-draft-wysiwyg": "^1.13.2",
+    "react-error-overlay": "^1.0.10",
+    "react-google-maps": "^9.4.5",
+    "react-icons": "^2.2.7",
+    "react-image-gallery": "^1.0.7",
+    "react-images": "^0.5.19",
+    "react-lazyload": "^3.2.0",
+    "react-photo-gallery": "^8.0.0",
+    "react-pin-input": "^1.0.1",
+    "react-preload": "^0.5.2",
+    "react-recaptcha": "^2.3.10",
+    "react-recaptcha-google": "^1.1.1",
+    "react-redux": "^5.1.1",
+    "react-responsive-masonry": "^2.1.3",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "^3.4.4",
+    "react-share": "^4.4.0",
+    "react-slick": "^0.25.2",
+    "react-social-login": "^3.4.13",
+    "react-validation": "^2.10.9",
+    "reactour": "^1.17.0",
+    "recompose": "^0.26.0",
+    "redux": "^3.7.2",
+    "redux-devtools-extension": "^2.13.8",
+    "redux-thunk": "^2.3.0",
+    "request": "^2.88.0",
+    "slick-carousel": "^1.8.1",
+    "style-loader": "0.18.2",
+    "styled-components": "^4.4.1",
+    "sw-precache-webpack-plugin": "0.11.3",
+    "swiper": "^6.7.5",
+    "url-loader": "0.5.9",
+    "utf8": "^2.1.2",
+    "webpack": "2.6.1",
+    "webpack-dev-server": "2.5.0",
+    "webpack-manifest-plugin": "1.1.0",
+    "whatwg-fetch": "2.0.3"
+  },
+  "scripts": {
+    "start": "node scripts/start.js",
+    "build": "node scripts/build.js",
+    "test": "node scripts/test.js --env=jsdom",
+    "preinstall": "npx npm-force-resolutions"
+  },
+  "resolutions": {
+    "handle-thing": "^2.0.1"
+  },
+  "proxy": "http://localhost:3000",
+  "devDependencies": {
+    "node-sass": "^4.5.3",
+    "sass-loader": "^6.0.6",
+    "uglifyjs-webpack-plugin": "^2.2.0"
+  },
+  "jest": {
+    "collectCoverageFrom": [
+      "src/**/*.{js,jsx}"
+    ],
+    "setupFiles": [
+      "<rootDir>/config/polyfills.js"
+    ],
+    "testMatch": [
+      "<rootDir>/src/**/__tests__/**/*.js?(x)",
+      "<rootDir>/src/**/?(*.)(spec|test).js?(x)"
+    ],
+    "testEnvironment": "node",
+    "testURL": "http://localhost",
+    "transform": {
+      "^.+\\.(js|jsx)$": "<rootDir>/node_modules/babel-jest",
+      "^.+\\.css$": "<rootDir>/config/jest/cssTransform.js",
+      "^(?!.*\\.(js|jsx|css|json)$)": "<rootDir>/config/jest/fileTransform.js"
+    },
+    "transformIgnorePatterns": [
+      "[/\\\\]node_modules[/\\\\].+\\.(js|jsx)$"
+    ],
+    "moduleNameMapper": {
+      "^react-native$": "react-native-web"
+    },
+    "moduleFileExtensions": [
+      "web.js",
+      "js",
+      "json",
+      "web.jsx",
+      "jsx"
+    ]
+  },
+  "babel": {
+    "presets": [
+      "react-app"
+    ]
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  }
+}

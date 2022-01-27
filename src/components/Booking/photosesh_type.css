@@ -1,0 +1,44 @@
+:local(.photosesh-type){
+
+
+}
+
+:local(.ant-card){
+  margin: 10px;
+  cursor: pointer;
+}
+:local(.container){
+  max-width: 1000px;
+  margin: auto;
+}
+:local(.custom-image img){
+  display: block;
+  width: 100%;
+}
+:local(.custom-card p){
+  color: #999;
+}
+:local(.custom-card .price){
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #47494a;
+}
+:local(.custom-card){
+  margin: 10px 0;
+  font-size: 17px;
+}
+:local(.custom-detail-light){
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+
+
+#photosesh-type .ant-card-body{
+
+  border: 2px solid transparent;
+}
+#photosesh-type .ant-card-body:hover,#photosesh-type .ant-card.active .ant-card-body{
+
+  border: 2px solid #ee7300;
+}

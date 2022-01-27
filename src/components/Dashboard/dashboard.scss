@@ -1,0 +1,12 @@
+#dashboard-page{
+    padding: 40px;
+    .ant-card-body{
+        min-height: 200px;
+    }
+}
+
+@media screen and (max-width: 480px){
+    #dashboard-page{
+        padding: 00px;
+    }
+}

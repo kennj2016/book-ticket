@@ -1,0 +1,59 @@
+.rate2 .rate_number {
+    font-size: 16px;
+    vertical-align: text-top;
+}
+.rate2 .ant-rate-star:hover{
+    transform: scale(1);
+}
+.rate2  i.anticon.anticon-star{
+    font-size: 17px;
+    text-shadow: 2px 1px 0px #383737;
+    -webkit-text-stroke: 1px #211f1f;
+}
+.rate2 .ant-rate,
+.rate2 .ant-rate li,
+.rate2 .ant-rate li i{
+    cursor: default;
+}
+.rate2 li .star{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url(/images/stars-shadow.png)no-repeat;
+    background-position: 0 0;
+    background-size: 20px;
+}
+.rate2 li.ant-rate-star-full .star{
+    background-position: 0 0;
+}
+
+.rate2 li.ant-rate-star-zero .star{
+    background-position: 0px -202px;
+
+}
+.rate2 li.ant-rate-star-f1 .star{
+    background-position: 0px -182px;
+}
+
+.rate2 li.ant-rate-star-f2 .star{
+    background-position: 0px -162px;
+}
+
+.rate2 li.ant-rate-star-f3 .star{
+    background-position: 0px -140px;
+}
+.rate2 li.ant-rate-star-f4 .star{
+    background-position: 0px -120px;
+}
+.rate2 li.ant-rate-star-f5 .star{
+    background-position: 0px -100px;
+}.rate2 li.ant-rate-star-f6 .star{
+    background-position: 0px -80px;
+}.rate2 li.ant-rate-star-f7 .star{
+    background-position: 0px -60px;
+}.rate2 li.ant-rate-star-f8 .star{
+    background-position: 0px -40px;
+}.rate2 li.ant-rate-star-f9 .star{
+    background-position: 0px -20px;
+}
+

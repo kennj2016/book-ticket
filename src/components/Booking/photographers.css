@@ -1,0 +1,17 @@
+:local(.right_info) {
+    float: left;
+    width: calc(100% - 160px);
+    padding: 10px 0;
+}
+
+:local(.thumbnail) {
+    width: 150px;
+    padding: 10px;
+    margin-right: 10px;
+    float: left;
+}
+
+:local(.card) {
+    cursor: pointer;
+    margin-bottom: 10px;
+}

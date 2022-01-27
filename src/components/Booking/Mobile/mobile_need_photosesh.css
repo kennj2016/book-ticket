@@ -1,0 +1,40 @@
+:local(.need_photosesh){
+  padding-top: 40px;
+
+
+}
+:local(.container){
+  max-width: 1000px;
+  margin: auto;
+  padding: 10px;
+}
+:local(.custom_image img){
+  display: block;
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+:local(.custom_card p){
+  color: #999;
+  }
+:local(.custom_card){
+  padding: 10px 16px;
+  margin: 10px
+}
+:local(.custom_detail_light){
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+:local(.item){
+  padding: 10px;
+}
+
+.page-book-need-a-photosesh .head-title-center{
+  margin-top: 20px;
+}
+
+.page-book-need-a-photosesh .ant-card-body:hover,.page-book-need-a-photosesh .ant-card.active .ant-card-body{
+
+  border: 2px solid #ee7300;
+}

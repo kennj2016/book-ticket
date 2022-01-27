@@ -1,0 +1,10 @@
+:local(.home-page){
+
+}
+:local(.intro){
+  height: 700px;
+  width: 100%;
+  background: url(/images/5.jpg) no-repeat;
+  background-size: cover;
+  background-position: 0 0;
+}

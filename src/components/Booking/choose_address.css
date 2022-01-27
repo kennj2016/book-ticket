@@ -1,0 +1,48 @@
+:local(.title){
+  font-size: 25px;
+  margin-bottom: 30px;
+  font-weight: 100;
+  color: #e9550f;
+  text-align: center;
+  line-height: 40px;
+}
+:local(.box_input_address){
+  position: absolute;
+  top: 20px;
+  width: 400px;
+  min-height: 500px;
+  right: 20px;
+  background: -webkit-linear-gradient(140deg,#F3F3F3 50%, #F9F9F9 50%);
+  background: -o-linear-gradient(140deg,#F3F3F3 50%, #F9F9F9 50%);
+  background: linear-gradient(-50deg,#F3F3F3 50%, #F9F9F9 50%);
+  padding: 20px;
+  border-radius: 10px;
+  border: 2px solid #fbfbfb;
+  box-shadow: 1px 1px 6px #bfbbbb;
+}
+:local(.step_process){
+  position: absolute;
+  z-index: 1;
+  width: 90%;
+  background: white;
+  left: 5%;
+  bottom: 30px;
+  padding: 20px;
+  border-radius: 10px;
+}
+.ant-radio-button-wrapper:hover{
+  color: #4b4b4b;
+}
+.ant-radio-button-wrapper{
+  border: 0 !important;
+  background: #ddd;
+}
+.ant-radio-button-wrapper-checked:hover{
+  color: white;
+}
+.ant-radio-button-wrapper-checked{
+  box-shadow: none !important;
+  background: black;
+  color: white;
+  border: black;
+}

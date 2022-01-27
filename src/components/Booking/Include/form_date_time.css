@@ -1,0 +1,41 @@
+
+
+:local(.full-height){
+  height: calc(100vh);
+}
+:local(.row){
+  padding: 10px 0;
+  font-size: 15px;
+  border-bottom: 1px solid #f3f2f2;
+}
+
+:local(.row label){
+  font-size: 15px;
+}
+
+:local(.title){
+  font-weight: 100;
+  font-size: 30px;
+  line-height: 40px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+:local(.custom-card-booking-review-right){
+  float: right;
+  text-align: right;
+}
+:local(.ant-card){
+  margin: 0px !important;
+  padding: 20px;
+}
+:local(.footer h4){
+  margin-bottom: 10px;
+  font-size: 17px;
+  color: #ff5e00;
+}
+:local(.footer) {
+  color: #213b63;
+  background: rgb(244, 245, 245);
+  padding: 10px;
+}

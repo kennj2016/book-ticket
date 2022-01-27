@@ -1,0 +1,59 @@
+:local(.welcome){
+    float: right;
+}
+:local(.top_left){
+    float: left;
+}
+
+:local(.top_right){
+    float: right;
+    padding: 0 10px;
+    height: 25px;
+    margin-top: 9px;
+    line-height: 25px;
+    border-radius: 0;
+    background: #2892e0;
+}
+:local(.top_right a){
+    color: white;
+}
+:local(.top_right span){
+    margin-left: 10px;
+}
+:local(.header_top){
+    padding: 0px 20px;
+    line-height: 40px;
+    border-bottom: 1px solid #f1f1f1;
+    width: 100%;
+    overflow: hidden;
+}
+
+:local(.header_bot){
+    padding: 0px 20px;
+}
+
+
+:local(.logo){
+    float: left;
+    font-size: 20px;
+    color: #615e5e;
+    line-height: 60px;
+}
+
+
+
+:local(.sub){
+    vertical-align: sub;
+}
+:local(.primary){
+    color: #f95b0d;
+}
+
+
+.ant-dropdown-menu{
+    margin-top: 5px;
+    text-align: center;
+}
+.ant-dropdown-menu-item  a{
+    padding: 10px 20px !important;
+}

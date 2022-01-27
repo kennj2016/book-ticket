@@ -1,0 +1,45 @@
+
+:local(.term_text ){
+    text-align: center;
+    margin: auto;
+    max-width: 500px;
+    padding: 10px 20px;
+    background: black;
+    color: white;
+    border-radius: 3px;
+}
+:local(.signup_form ){
+    margin: auto;
+    max-width: 500px;
+    padding: 30px 20px;
+    background: #fbfbfb;
+    margin-top: 50px;
+}
+:local(.signup_form h2 ){
+    font-size: 25px;
+    font-weight: 100;
+    text-align: center;
+    margin-bottom: 30px;
+}
+:local(.signup_form h2 span){
+    color: #ff6316;
+}
+:local(.input){
+    font-size:15px;
+}
+:local(.forgot ){
+    float: right;
+}
+:local(.button ){
+    width: 100%;
+}
+
+:local(.footer ){
+    text-align: center;
+    line-height: 50px;
+}
+
+:local(.footer li ){
+    display: inline-block;
+    margin: 0 5px;
+}

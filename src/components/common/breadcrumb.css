@@ -1,0 +1,15 @@
+:local(.link){
+    color: #3e3d3c !important;
+}
+:local(.breadcrumbs span){
+    color: #ccc;
+}
+:local(.breadcrumbs){
+    font-size: 14px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    position: sticky;
+    z-index: 1000;
+    top: 0;
+    background: white;
+}

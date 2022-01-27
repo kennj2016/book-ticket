@@ -1,0 +1,241 @@
+:local(.title){
+  font-size: 25px;
+  margin-bottom: 30px;
+  font-weight: 100;
+  color: #e9550f;
+  text-align: center;
+  line-height: 40px;
+}
+:local(.box_input_address){
+  position: absolute;
+  top: 0;
+  width: 100%;
+  background: -webkit-linear-gradient(140deg,#F3F3F3 50%, #F9F9F9 50%);
+  background: -o-linear-gradient(140deg,#F3F3F3 50%, #F9F9F9 50%);
+  background: linear-gradient(-50deg,#F3F3F3 50%, #F9F9F9 50%);
+  padding: 20px;
+  border-radius: 0;
+  border: 2px solid #fbfbfb;
+  -webkit-box-shadow: 1px 1px 6px #bfbbbb;
+  box-shadow: 1px 1px 6px #bfbbbb;
+  height: 100vh;
+}
+
+:local(.step_process){
+  position: absolute;
+  z-index: 1;
+  width: 90%;
+  background: white;
+  left: 5%;
+  bottom: 30px;
+  padding: 20px;
+  border-radius: 10px;
+}
+.ant-radio-button-wrapper:hover{
+  color: #4b4b4b;
+}
+.ant-radio-button-wrapper{
+  border: 0 !important;
+  background: #ddd;
+}
+.ant-radio-button-wrapper-checked:hover{
+  color: white;
+}
+.ant-radio-button-wrapper-checked{
+  box-shadow: none !important;
+  background: black;
+  color: white;
+  border: black;
+}
+
+@media screen and (max-width: 768px){
+  :local(.box_input_address){
+
+    z-index: 1000;
+    top: 50px;
+    height: calc(100vh - 150px);
+    background: none;
+    box-shadow:initial;
+    border:0;
+  }
+
+}
+
+@media not all and (min-resolution:.001dpcm) {
+
+  @media screen and (max-width: 768px){
+    :local(.box_input_address) {
+      position: absolute !important;
+      top: 50px;
+      z-index: 1111111111111111111111111;
+    }
+  }
+
+}
+
+
+/* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
+
+/* Portrait and Landscape */
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 568px)
+and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* Portrait */
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 568px)
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: portrait) {
+}
+
+/* Landscape */
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 568px)
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: landscape) {
+    :local(.box_input_address) {
+        z-index: 50;
+    }
+    :local(.box_input_address) .ant-row.ant-form-item {
+        margin-bottom: 0;
+    }
+    .booklater-duration .from, .booklater-duration .to {
+        width: 50%;
+        float: left;
+        padding-right: 10px;
+    }
+    .page-book-schedule button.ant-btn.btn-submit.ant-btn-primary{
+        display: none;
+    }
+
+}
+
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+
+/* Portrait and Landscape */
+@media only screen
+and (min-device-width: 375px)
+and (max-device-width: 667px)
+and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* Portrait */
+@media only screen
+and (min-device-width: 375px)
+and (max-device-width: 667px)
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: portrait) {
+
+}
+
+/* Landscape */
+@media only screen
+and (min-device-width: 375px)
+and (max-device-width: 667px)
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: landscape) {
+
+    :local(.box_input_address) {
+        z-index: 50;
+    }
+    :local(.box_input_address) .ant-row.ant-form-item {
+        margin-bottom: 0;
+    }
+    .booklater-duration .from, .booklater-duration .to {
+        width: 50%;
+        float: left;
+        padding-right: 10px;
+    }
+    .page-book-schedule button.ant-btn.btn-submit.ant-btn-primary{
+        display: none;
+    }
+}
+
+/* ----------- iPhone 6+, 7+ and 8+ ----------- */
+
+/* Portrait and Landscape */
+@media only screen
+and (min-device-width: 414px)
+and (max-device-width: 736px)
+and (-webkit-min-device-pixel-ratio: 3) {
+
+}
+
+/* Portrait */
+@media only screen
+and (min-device-width: 414px)
+and (max-device-width: 736px)
+and (-webkit-min-device-pixel-ratio: 3)
+and (orientation: portrait) {
+
+}
+
+/* Landscape */
+@media only screen
+and (min-device-width: 414px)
+and (max-device-width: 736px)
+and (-webkit-min-device-pixel-ratio: 3)
+and (orientation: landscape) {
+    :local(.box_input_address) {
+        z-index: 50;
+    }
+    :local(.box_input_address) .ant-row.ant-form-item {
+        margin-bottom: 0;
+    }
+    .booklater-duration .from, .booklater-duration .to {
+        width: 50%;
+        float: left;
+        padding-right: 10px;
+    }
+    .page-book-schedule button.ant-btn.btn-submit.ant-btn-primary{
+        display: none;
+    }
+}
+
+/* ----------- iPhone X ----------- */
+
+/* Portrait and Landscape */
+@media only screen
+and (min-device-width: 375px)
+and (max-device-width: 812px)
+and (-webkit-min-device-pixel-ratio: 3) {
+
+}
+
+/* Portrait */
+@media only screen
+and (min-device-width: 375px)
+and (max-device-width: 812px)
+and (-webkit-min-device-pixel-ratio: 3)
+and (orientation: portrait) {
+
+}
+
+/* Landscape */
+@media only screen
+and (min-device-width: 375px)
+and (max-device-width: 812px)
+and (-webkit-min-device-pixel-ratio: 3)
+and (orientation: landscape) {
+    :local(.box_input_address) {
+        z-index: 50;
+    }
+    :local(.box_input_address) .ant-row.ant-form-item {
+        margin-bottom: 0;
+    }
+    .booklater-duration .from, .booklater-duration .to {
+        width: 50%;
+        float: left;
+        padding-right: 10px;
+    }
+    .page-book-schedule button.ant-btn.btn-submit.ant-btn-primary{
+        display: none;
+    }
+
+}

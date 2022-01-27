@@ -1,0 +1,421 @@
+
+
+.rdw-link-wrapper .rdw-link-modal {
+    position: absolute;
+    top: 35px;
+    left: 5px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 235px;
+    height: 252px;
+    border: 1px solid #F1F1F1;
+    padding: 15px;
+    border-radius: 2px;
+    z-index: 100;
+    background: white;
+    -webkit-box-shadow: 3px 3px 5px #BFBDBD;
+    box-shadow: 3px 3px 5px #BFBDBD;
+}
+
+.rdw-link-wrapper .rdw-link-modal  .rdw-link-modal-input {
+    margin-top: 0px;
+    border-radius: 2px;
+    border: 1px solid #afafaf;
+    height: 25px;
+    margin-bottom: 0;
+    padding: 0 5px;
+}
+
+.rdw-link-wrapper .rdw-link-modal  .rdw-link-modal-btn {
+    margin-left: 10px;
+    width: 75px;
+    height: 30px;
+    border: 1px solid #ada9a9;
+    border-radius: 2px;
+    cursor: pointer;
+    background: white;
+    text-transform: capitalize;
+    line-height: 25px;
+}
+
+.rdw-embedded-wrapper .rdw-embedded-modal {
+    position: absolute;
+    top: 35px;
+    left: 5px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 235px;
+    height: 215px;
+    border: 1px solid #bfbaba;
+    padding: 15px;
+    border-radius: 2px;
+    z-index: 100;
+    background: white;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-shadow: 3px 3px 5px #BFBDBD;
+    box-shadow: 3px 3px 5px #BFBDBD;
+}
+.rdw-embedded-wrapper .rdw-embedded-modal-header-option {
+    width: 100%;
+    cursor: pointer;
+    display: block;
+
+}
+.rdw-embedded-wrapper .rdw-embedded-modal-link-input {
+    border: 1px solid #7b7a7a;
+}
+
+.rdw-embedded-wrapper .rdw-embedded-modal-btn {
+    margin: 0 3px;
+    width: 75px;
+    height: 31px;
+    border: 1px solid #c5c5c5;
+    border-radius: 2px;
+    cursor: pointer;
+    background: white;
+    text-transform: capitalize;
+    line-height: 20px;
+}
+.rdw-embedded-wrapper .rdw-embedded-modal-size-input {
+    width: 80%;
+    height: 33px;
+    border: 1px solid #ddd;
+    border-radius: 2px;
+    font-size: 12px;
+}
+
+span.icon-info img{
+    width: 19px;
+    top: -6px;
+    position: relative;
+    right: -4px;
+    cursor: pointer;
+
+}
+.ant-popover-content{
+    box-shadow: -1px 0px 23px #ddd;
+    border: 1px solid #ddd;
+}
+.ant-popover-inner-content {
+    overflow: hidden;
+    max-width: 450px;
+    border: 1px solid #ddd;
+}
+
+
+.anticon.anticon-info-circle svg{
+    position: absolute;
+    right:-10px;
+    top:-10px;
+
+}
+.anticon.anticon-info-circle{
+    margin: 10px;
+    position: relative;
+
+}
+:local(.full-height) {
+    height: calc(100vh);
+}
+
+:local(.book_review) {
+    margin-top: 30px;
+
+}
+
+:local(.row) {
+    padding: 10px 0;
+    font-size: 15px;
+    border-bottom: 1px solid #f3f2f2;
+}
+
+:local(.row label) {
+    font-size: 15px;
+}
+
+:local(.title) {
+    font-weight: 100;
+    font-size: 30px;
+    line-height: 40px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+:local(.custom-card-booking-review-right) {
+    float: right;
+    text-align: right;
+}
+
+:local(.ant-card) {
+    margin: 0px !important;
+    padding: 20px;
+}
+
+:local(.footer h4) {
+    margin-bottom: 10px;
+    font-size: 17px;
+    color: #ff5e00;
+}
+
+:local(.footer) {
+    color: #213b63;
+    background: rgb(244, 245, 245);
+    padding: 10px;
+}
+
+:local(.btn-save:hover) {
+    background: #eceded;
+    color: #464141;
+}
+
+:local(.btn-directory:hover) {
+    color: white;
+}
+
+:local(.btn-directory) {
+
+    width: calc(100% - 10px);
+    margin-left: 10px;
+    margin-top: 19px;
+    background: #000000;
+    color: #ffffff;
+    display: block;
+    text-align: center;
+    padding: 6px;
+}
+:local(.list_wrap) {
+    padding:5px;
+    background: #fafafa;
+    border: 1px solid #ddd;
+    height: 15em;
+    overflow-y: scroll
+}
+:local(.popup_item span) {
+    width: calc(100% - 100px);
+    display: inline-block;
+    height: 1.5em;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+:local(.popup_item:hover) {
+    background: #e0e2e2;
+}
+:local(.btn_use_code:hover) {
+    color: white;
+}
+:local(.btn_use_code) {
+    color: white;
+    background: black;
+    text-align: center;
+    width: 120px;
+    display: inline-block;
+    margin: 30px 5px;
+    padding: 5px 0;
+}
+:local(.popup_item strong) {
+    color: #e9550f;
+    width: 100px;
+    display: inline-block;
+    height: 1.5em;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    text-transform: uppercase;
+}
+:local(.popup_item) {
+    padding: 0 5px;
+    cursor: pointer;
+    vertical-align: middle;
+}
+
+:local(.btn-save) {
+
+    float: right;
+    margin-top: -20px;
+    background: #f4f5f5;
+    padding: 1px 10px;
+    border: 1px solid #ddd;
+    border-radius: 2px;
+    color: #464141;
+}
+
+
+.wrapper-editor{
+    box-shadow: 1px 1px 1px inset #ececec;
+    min-height: 100px;
+    border: 1px solid #e8e8e8;
+}
+.wrapper-editor.rdw-editor-main {
+    padding: 0 10px;
+    background: #ffffff;
+}
+.covid-modal .ant-modal-title{
+    text-align: center;
+}
+@media screen and (max-width: 480px) {
+    #rcDialogTitle0 p{
+        margin-bottom: 0;
+    }
+    #rcDialogTitle0 h2{
+        font-size: 15px;
+    }
+    :local(.list_wrap) {
+        padding:5px;
+        background: #fafafa;
+        border: 1px solid #ddd;
+        height: 8em;
+        overflow-y: scroll
+    }
+    :local(.ant-card) {
+        margin: 0px !important;
+        padding: 0px;
+    }
+
+
+    .page-book-booking-review :local(.book_review){
+        padding-top: 40px;
+        padding-bottom: 100px;
+    }
+    .page-book-booking-review :local(.book_review) {
+        margin-top: 0px;
+    }
+    .page-book-booking-review .navigate-mobile span{
+        width: 100% !important;
+    }
+    :local(.btn-directory) {
+
+        margin-top: 0px;
+
+    }
+    :local(.title) {
+        margin-bottom: 30px;
+    }
+}
+
+
+
+
+/* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
+
+/* Portrait and Landscape */
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 568px)
+and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* Portrait */
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 568px)
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: portrait) {
+}
+
+/* Landscape */
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 568px)
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: landscape) {
+    .page-book-booking-review .navigate-mobile span{
+        width: 100% !important;
+    }
+}
+
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+
+/* Portrait and Landscape */
+@media only screen
+and (min-device-width: 375px)
+and (max-device-width: 667px)
+and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* Portrait */
+@media only screen
+and (min-device-width: 375px)
+and (max-device-width: 667px)
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: portrait) {
+
+}
+
+/* Landscape */
+@media only screen
+and (min-device-width: 375px)
+and (max-device-width: 667px)
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: landscape) {
+    .page-book-booking-review .navigate-mobile span{
+        width: 100% !important;
+    }
+}
+
+/* ----------- iPhone 6+, 7+ and 8+ ----------- */
+
+/* Portrait and Landscape */
+@media only screen
+and (min-device-width: 414px)
+and (max-device-width: 736px)
+and (-webkit-min-device-pixel-ratio: 3) {
+
+}
+
+/* Portrait */
+@media only screen
+and (min-device-width: 414px)
+and (max-device-width: 736px)
+and (-webkit-min-device-pixel-ratio: 3)
+and (orientation: portrait) {
+
+}
+
+/* Landscape */
+@media only screen
+and (min-device-width: 414px)
+and (max-device-width: 736px)
+and (-webkit-min-device-pixel-ratio: 3)
+and (orientation: landscape) {
+    .page-book-booking-review .navigate-mobile span{
+        width: 100% !important;
+    }
+}
+
+/* ----------- iPhone X ----------- */
+
+/* Portrait and Landscape */
+@media only screen
+and (min-device-width: 375px)
+and (max-device-width: 812px)
+and (-webkit-min-device-pixel-ratio: 3) {
+
+}
+
+/* Portrait */
+@media only screen
+and (min-device-width: 375px)
+and (max-device-width: 812px)
+and (-webkit-min-device-pixel-ratio: 3)
+and (orientation: portrait) {
+
+}
+
+/* Landscape */
+@media only screen
+and (min-device-width: 375px)
+and (max-device-width: 812px)
+and (-webkit-min-device-pixel-ratio: 3)
+and (orientation: landscape) {
+    .page-book-booking-review .navigate-mobile span{
+        width: 100% !important;
+    }
+}
+
+

@@ -1,0 +1,74 @@
+:local(.title){
+  font-size: 25px;
+  margin-bottom: 30px;
+  font-weight: 100;
+  color: #e9550f;
+  text-align: center;
+  line-height: 40px;
+}
+:local(.box_input_address){
+  position: fixed;
+  top: 20px;
+  width: calc(100% - 20px);
+  background: -webkit-linear-gradient(140deg,#F3F3F3 50%, #F9F9F9 50%);
+  background: -o-linear-gradient(140deg,#F3F3F3 50%, #F9F9F9 50%);
+  background: linear-gradient(-50deg,#F3F3F3 50%, #F9F9F9 50%);
+  padding: 20px;
+  border-radius: 10px;
+  border: 2px solid #fbfbfb;
+  -webkit-box-shadow: 1px 1px 6px #bfbbbb;
+  box-shadow: 1px 1px 6px #bfbbbb;
+  margin: 10px;
+  z-index: 10;
+}
+
+.ant-radio-button-wrapper:hover{
+  color: #4b4b4b;
+}
+.ant-radio-button-wrapper{
+  border: 0 !important;
+  background: #ddd;
+}
+.ant-radio-button-wrapper-checked:hover{
+  color: white;
+}
+.ant-radio-button-wrapper-checked{
+  box-shadow: none !important;
+  background: black;
+  color: white;
+  border: black;
+}
+
+.btn-submit {
+   margin-top: 0px;
+ }
+
+@media screen and (max-width: 480px){
+  :local(.box_input_address) {
+    position: fixed;
+    top: 100px;
+    z-index: 10;
+  }
+}
+
+
+@media only screen
+and (min-device-width : 414px)
+and (max-device-height : 896px)
+and (-webkit-device-pixel-ratio : 3)
+and (orientation : landscape) {
+    :local(.box_input_address) {
+      position: absolute;
+      top: 100px;
+      z-index: 10;
+
+    }
+
+    :local(.box_input_address) {
+      max-width: 370px;
+      top: 50px;
+      right: 0;
+      z-index: 50;
+    }
+}
+

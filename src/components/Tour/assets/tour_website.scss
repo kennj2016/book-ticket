@@ -1,0 +1,143 @@
+.tour-box-component{
+  padding: 20px 30px !important;
+  button{
+    top: 10px !important;
+    right: 10px !important;
+
+  }
+
+
+  span[data-tour-elem="badge"]{
+    padding-left: 0.7125em !important;;
+    padding-right: 0.7125em !important;
+  }
+}
+.tour-wrapper{
+    #step1{
+      background: url('./map.png') no-repeat 100%;
+      background-size: cover;
+      width: 100%;
+      height: 100vh;
+      position: relative;
+      .box-right{
+        position: absolute;
+        top: 20px;
+        width: 400px;
+        min-height: 730px;
+        right: 20px;
+        background: url('./animate-booking.gif') no-repeat 100%;
+        border-radius: 10px;
+      }
+    }
+
+  #step2{
+
+    padding-top: 130px;
+    padding-bottom: 100px;
+      .top{
+        height: 150px;
+        width: 100%;
+
+        background: url('./step2-top.png') no-repeat;
+        background-size: 100%;
+      }
+      .middle-row{
+        width: 800px;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        >div{
+          width: 300px;
+          height: 441px;
+          margin: 20px;
+
+          &:first-child{
+            background: url('./step2a.png') no-repeat ;
+            background-size: 100%;
+          }
+          &:last-child{
+            background: url('./step2b.png') no-repeat ;
+            background-size: 100%;
+          }
+        }
+      }
+    }
+
+  #step3{
+
+    padding-bottom: 170px;
+    .top{
+
+      height: 150px;
+      width: 800px;
+      margin:20px auto;
+
+      background: url('./step3-top.png') no-repeat;
+      background-size: 100%;
+    }
+    .middle-row{
+      width: 800px;
+      margin: auto;
+
+      display: flex;
+      flex-wrap: wrap;
+      align-content: space-between;
+
+      >div{
+        width: 300px;
+        margin: 20px;
+      }
+    }
+  }
+
+
+  #step4{
+    padding-bottom: 170px;
+    .top{
+      height: 350px;
+      width: 900px;
+      margin:20px auto;
+      background: url('./step4-top.png') no-repeat;
+      background-size: 100%;
+    }
+    .middle-row{
+      width: 800px;
+      margin: auto;
+
+      display: flex;
+      flex-wrap: wrap;
+      align-content: space-between;
+
+      >div{
+        margin: 20px;
+      }
+    }
+  }
+
+
+  #step5{
+    padding-bottom: 170px;
+    .top{
+      height: 350px;
+      width: 900px;
+      margin:20px auto;
+      background: url('./step5-top.png') no-repeat;
+      background-size: 100%;
+    }
+    .middle-row{
+      width: 800px;
+      margin: auto;
+
+      display: flex;
+      flex-wrap: wrap;
+      align-content: space-between;
+
+      >div{
+        margin: 20px;
+      }
+    }
+  }
+}
+

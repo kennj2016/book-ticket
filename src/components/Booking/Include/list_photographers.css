@@ -1,0 +1,749 @@
+:local(.right_info) {
+    float: left;
+    width: calc(100% - 160px);
+    padding: 20px;
+    position: relative;
+
+}
+:local(.recommended_img) {
+    max-width: 100px;
+    margin-left: 30px;
+}
+#list_photographers .smartmatch{
+    padding: 20px 0;
+}
+#list_photographers .smartmatch .icon-info img{
+    top:-20px
+}
+#list_photographers .smartmatch img{
+    cursor: pointer;
+}
+#list_photographers .menu_simple {
+    margin-bottom: 10px;
+}
+#list_photographers :local(.box_favorite_photographer_liked){
+    padding:  0 50px ;
+    max-width: 760px;
+    margin: 0 auto;
+}
+#list_photographers :local(.box_favorite_photographer_liked:before){
+    content: '';
+    position: absolute;
+    background: white;
+    width: 6000px;
+    left: -1500px;
+    top: 0;
+    z-index: -1;
+    height: 100%;
+}
+.box-1-1 {
+    position: relative;
+    width:    90%; /* desired width */
+    margin: auto;
+}
+
+.box-1-1:before {
+    content:     "";
+    display:     block;
+    padding-top: 100%; /* initial ratio of 1:1*/
+}
+
+.box-1-1 .content {
+    border-radius: 50%;
+    position: absolute;
+    top:      0;
+    left:     0;
+    bottom:   0;
+    right:    0;
+    background: -webkit-gradient(linear, left top, right top, from(red), to(orange));
+    background: -webkit-linear-gradient(left, red, orange);
+    background: -o-linear-gradient(left, red, orange);
+    background: linear-gradient(to right, red, orange);
+}
+
+:local(.thumbnail img) {
+    border-radius: 10px;
+}
+:local(.thumbnail) {
+    width: 150px;
+    padding: 20px;
+    margin-right: 10px;
+    float: left;
+}
+
+:local(.btn_next:hover) {
+    color: white;
+}
+
+:local(.btn_next_sticky:hover){
+    color: white;
+}
+
+:local(.btn_next_sticky)
+{
+    position: fixed;
+    right: 19px;
+    width: 116px;
+    top: calc(30%);
+    border-radius: 5px;
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+    background: #008dec;
+    padding: 10px;
+    text-align: center;
+    color: #ffffff;
+    z-index: 130;
+
+}
+:local(.box_info_liked){
+
+    position: fixed;
+    right: 0;
+    width: 210px;
+    top: calc(30% + 70px);
+    background: #fafafa;
+    z-index: 11;
+    border: 1px solid #e2e2e2;
+    border-right: 0;
+
+
+}
+:local(.row_info){
+    width: 100%;
+    overflow: hidden;
+}
+:local(.box_info_liked_inner){
+    padding: 5px;
+}
+:local(.box_info_liked_inner .left){
+    float: left;
+    width: 40px;
+    margin-right: 5px;
+}
+
+:local(.box_info_liked_inner .right span){
+    cursor: pointer;
+    color:#e9550f;
+}
+:local(.box_info_liked_inner .right){
+    float: left;
+    width: calc(100% - 45px);
+}
+
+:local(.box_info_liked_header){
+    padding: 5px;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+}
+:local(.btn_next) {
+    display: block;
+    padding: 11px;
+    text-align: center;
+    background: #008dec;
+    margin-top: 40px;
+    color: white;
+    font-size: 20px;
+}
+:local(.button_view_profile:hover) {
+    color: white;
+    background: #ee7300;
+}
+:local(.button_view_profile) {
+    position: absolute;
+    right: 20px;
+    top: calc(50% - 20px) ;
+    background: black;
+    border-radius: 2px;
+    padding: 15px 30px;
+    color: white;
+    font-size: 15px;
+}
+:local(.rate_number) {
+    font-size: 16px;
+    vertical-align: text-top;
+}
+:local(.wrap_favorite_list) {
+   padding:0 40px;
+}
+
+
+:local(.box_favorite_photographer_liked_header) {
+    position: relative;
+    margin-bottom: 10px;
+}
+
+#list_photographers  .viewprofile-label-name{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: block;
+    padding: 0 10px;
+}
+
+#list_photographers span.ant-avatar.ant-avatar-circle.ant-avatar-image img{
+    border-radius: 50%;
+}
+#list_photographers .box-1-1 .content img {
+    position: relative;
+    width: 100% !important;
+    height: 100% !important;
+    border: solid 2px transparent;
+    border-radius: 50%;
+}
+:local(.box_favorite_photographer_liked_header i) {
+    font-size: 30px;
+    margin-right: 10px;
+}
+:local(.box_favorite_photographer_liked_header span) {
+    font-size: 25px;
+    text-align: center;
+    color: #e9550f;
+    width: 100%;
+    display: inline-block;
+}
+:local(.card) {
+    cursor: pointer;
+    margin-bottom: 10px;
+    position: relative;
+    padding-right: 135px;
+}
+
+#list_photographers .control-slide .anticon{
+
+    position: absolute;
+    top: calc(50% - 5px);
+    font-size: 35px;
+    color: #1890ff;
+
+}
+#list_photographers .slick-slide div{text-align: center}
+#list_photographers .control-slide .anticon.right{right: 15px;}
+#list_photographers .control-slide .anticon.left{
+
+left: 15px;
+
+}
+#list_photographers .ant-rate-star:hover{
+    transform: scale(1);
+}
+#list_photographers i.anticon.anticon-star{
+    font-size: 17px;
+    text-shadow: 2px 1px 0px #383737;
+    -webkit-text-stroke: 1px #211f1f;
+}
+#list_photographers .ant-rate,#list_photographers .ant-rate li, #list_photographers .ant-rate li i{
+    cursor: default;
+}
+#list_photographers .ant-card-body {
+    padding: 0;
+}
+#list_photographers .card-pgr .wrap-heart i{
+    position: absolute;
+    left: -92px;
+    top: calc(50% - 17px);
+    color: #aba7a7;
+    font-size: 51px;
+    text-shadow: 2px -2px 0px #575656;
+    -webkit-text-stroke: 1px #000000;
+    cursor: pointer;
+}
+
+
+
+@media screen and (max-width: 768px){
+    #list_photographers .card-pgr .wrap-heart i{
+        left: 24px;
+    }
+
+    :local(.wrap_favorite_list) {
+        padding:0;
+    }
+
+    #list_photographers .control-slide .anticon{
+        display: none;
+    }
+    #list_photographers :local(.box_favorite_photographer_liked){
+        padding:5px ;
+        top:47px !important;
+        width: calc(100% - 20px);
+    }
+
+    #list_photographers.needShowChangeDateForm :local(.box_favorite_photographer_liked){
+        padding:  5px ;
+        top:52px !important;
+        display: none;
+    }
+    :local(.box_favorite_photographer_liked_header span) {
+        font-size: 20px;
+        color: #e9550f;
+
+    }
+}
+
+
+
+#list_photographers .checked .anticon.anticon-heart{
+    color: #ef0505;
+    -webkit-text-stroke: 1px #3a0904;
+}
+
+
+
+#list_photographers .checked{
+    background: #f7f6f6;
+
+}
+
+
+#list_photographers .wrap-slider{
+    position: relative;
+}
+#list_photographers .wrap-slider.cut-right:before{
+    position: absolute;
+    content:'';
+    right:0;
+    width:30px;
+    height: 100%;
+    background: white;
+    z-index: 2;
+    top:0;
+}
+#list_photographers .wrap-slider.cut-left:after{
+    position: absolute;
+    content:'';
+    left:0;
+    width:30px;
+    height: 100%;
+    background: white;
+    z-index: 2;
+    top:0;
+}
+#list_photographers .viewprofile-label-name{
+   color: #4b4b4b;
+}
+@media screen and (max-width: 480px){
+    #list_photographers{
+        padding-top: 179px !important;
+    }
+    h2.head-title-center{
+        font-size: 20px;
+        margin-top: 60px;
+    }
+    :local(.right_info) {
+        width: calc(100% - 100px);
+        padding: 0 10px;
+    }
+
+    :local(.thumbnail) {
+        width: 80px;
+        margin-right:5px;
+        padding: 0;
+    }
+    :local(.card) {
+        padding: 10px;
+        border: 1px solid #e8e4e2;
+        background: whitesmoke;
+        margin-bottom: 15px;
+    }
+    :local(.button_view_profile) {
+        position: relative;
+        display: inline-block;
+        right: initial;
+        top: initial;
+        float: right;
+        width: 100%;
+        text-align: center;
+        background: white;
+        color: black;
+        border: 1px solid #cacaca;
+        padding: 10px;
+        margin-top: 10px;
+    }
+
+
+    #list_photographers .viewprofile-label{
+        display: none;
+    }
+    #list_photographers .card-pgr .anticon.anticon-heart{
+        position: absolute;
+        left: 36px;
+        top: calc(102px);
+        color: #ffffff;
+        font-size: 27px;
+        text-shadow: 2px -2px 0px #575656;
+        -webkit-text-stroke: 1px #000000;
+        cursor: pointer;
+    }
+
+
+    #list_photographers .checked .anticon.anticon-heart{
+        color: #ef0505;
+        -webkit-text-stroke: 1px #3a0904;
+    }
+    :local(.btn_next_sticky){
+        right: 0;
+        width: calc(100% - 80px);
+        z-index: 100;
+        bottom: 0px;
+        height: 41px;
+        top: initial;
+        border-radius: 0;
+        cursor: pointer;
+    }
+    #list_photographers i.anticon.anticon-star {
+        font-size: 13px;
+        text-shadow: none;
+        -webkit-text-stroke: initial;
+        color: #9a9a9a;
+    }
+    :local(.btn_next) {
+        margin-bottom: 100px;
+    }
+
+    :local(.box_favorite_photographer_liked_header i) {
+        font-size: 25px;
+
+    }
+    :local(.box_favorite_photographer_liked_header span) {
+        font-size: 20px;
+    }
+
+}
+
+
+
+
+/* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
+
+/* Portrait and Landscape */
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 568px)
+and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* Portrait */
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 568px)
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: portrait) {
+}
+
+/* Landscape */
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 568px)
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: landscape) {
+
+    #list_photographers .card-pgr .wrap-heart i {
+        top: calc(50% + 6px);
+    }
+    :local(.thumbnail) {
+        width: 100px;
+        padding: 10px;
+        margin-right: 10px;
+        float: left;
+    }
+    :local(.right_info) {
+        float: left;
+        width: calc(100% - 120px);
+        padding: 10px;
+        position: relative;
+
+    }
+
+    #list_photographers:not(.needShowChangeDateForm){
+        width: calc(100% - 200px);
+        float: right;
+        padding: 20px 0 !important;
+    }
+    #list_photographers :local(.box_favorite_photographer_liked) {
+        width: 200px;
+        left: 0;
+        top: 79px !important;
+
+    }
+    #list_photographers .ant-col-xs-24.ant-col-xs-offset-0.ant-col-sm-20.ant-col-sm-offset-2.ant-col-md-18.ant-col-md-offset-3.ant-col-lg-20.ant-col-lg-offset-2.ant-col-xl-16.ant-col-xl-offset-4{
+        width: 100%;
+        margin-left: 10px;
+        padding-right: 10px;
+    }
+    #list_photographers :local(.box_favorite_photographer_liked:before){
+        display: none;
+    }
+    :local(.box_favorite_photographer_liked_header span) {
+        font-size: 14px;
+    }
+    :local(.card) {
+        padding-right: 0;
+    }
+
+    .viewprofile-label{
+        display: none;
+    }
+    :local(.btn_next_sticky){
+        display: none;
+    }
+    :local(.box_favorite_photographer_liked_header i) {
+        font-size: 20px;
+
+    }
+    :local(.btn_next){
+        display: none;
+    }
+}
+
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+
+/* Portrait and Landscape */
+@media only screen
+and (min-device-width: 375px)
+and (max-device-width: 667px)
+and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* Portrait */
+@media only screen
+and (min-device-width: 375px)
+and (max-device-width: 667px)
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: portrait) {
+
+}
+
+/* Landscape */
+@media only screen
+and (min-device-width: 375px)
+and (max-device-width: 667px)
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: landscape) {
+
+    #list_photographers .card-pgr .wrap-heart i {
+        top: calc(50% + 6px);
+    }
+    :local(.thumbnail) {
+        width: 100px;
+        padding: 10px;
+        margin-right: 10px;
+        float: left;
+    }
+    :local(.right_info) {
+        float: left;
+        width: calc(100% - 120px);
+        padding: 10px;
+        position: relative;
+
+    }
+
+    #list_photographers:not(.needShowChangeDateForm){
+        width: calc(100% - 200px);
+        float: right;
+        padding: 20px 0 !important;
+    }
+    #list_photographers :local(.box_favorite_photographer_liked) {
+        width: 200px;
+        left: 0;
+        top: 79px !important;
+
+    }
+    #list_photographers .ant-col-xs-24.ant-col-xs-offset-0.ant-col-sm-20.ant-col-sm-offset-2.ant-col-md-18.ant-col-md-offset-3.ant-col-lg-20.ant-col-lg-offset-2.ant-col-xl-16.ant-col-xl-offset-4{
+        width: 100%;
+        margin-left: 10px;
+        padding-right: 10px;
+    }
+    #list_photographers :local(.box_favorite_photographer_liked:before){
+        display: none;
+    }
+    :local(.box_favorite_photographer_liked_header span) {
+        font-size: 14px;
+    }
+    :local(.card) {
+        padding-right: 0;
+    }
+
+    .viewprofile-label{
+        display: none;
+    }
+    :local(.btn_next_sticky){
+        display: none;
+    }
+    :local(.box_favorite_photographer_liked_header i) {
+        font-size: 20px;
+
+    }
+    :local(.btn_next){
+        display: none;
+    }
+}
+
+/* ----------- iPhone 6+, 7+ and 8+ ----------- */
+
+/* Portrait and Landscape */
+@media only screen
+and (min-device-width: 414px)
+and (max-device-width: 736px)
+and (-webkit-min-device-pixel-ratio: 3) {
+
+}
+
+/* Portrait */
+@media only screen
+and (min-device-width: 414px)
+and (max-device-width: 736px)
+and (-webkit-min-device-pixel-ratio: 3)
+and (orientation: portrait) {
+
+}
+
+/* Landscape */
+@media only screen
+and (min-device-width: 414px)
+and (max-device-width: 736px)
+and (-webkit-min-device-pixel-ratio: 3)
+and (orientation: landscape) {
+
+    #list_photographers .card-pgr .wrap-heart i {
+        top: calc(50% + 6px);
+    }
+    :local(.thumbnail) {
+        width: 100px;
+        padding: 10px;
+        margin-right: 10px;
+        float: left;
+    }
+    :local(.right_info) {
+        float: left;
+        width: calc(100% - 120px);
+        padding: 10px;
+        position: relative;
+
+    }
+
+    #list_photographers:not(.needShowChangeDateForm){
+        width: calc(100% - 200px);
+        float: right;
+        padding: 20px 0 !important;
+    }
+    #list_photographers :local(.box_favorite_photographer_liked) {
+        width: 200px;
+        left: 0;
+        top: 79px !important;
+
+    }
+    #list_photographers .ant-col-xs-24.ant-col-xs-offset-0.ant-col-sm-20.ant-col-sm-offset-2.ant-col-md-18.ant-col-md-offset-3.ant-col-lg-20.ant-col-lg-offset-2.ant-col-xl-16.ant-col-xl-offset-4{
+        width: 100%;
+        margin-left: 10px;
+        padding-right: 10px;
+    }
+    #list_photographers :local(.box_favorite_photographer_liked:before){
+        display: none;
+    }
+    :local(.box_favorite_photographer_liked_header span) {
+        font-size: 14px;
+    }
+    :local(.card) {
+        padding-right: 0;
+    }
+
+    .viewprofile-label{
+        display: none;
+    }
+    :local(.btn_next_sticky){
+        display: none;
+    }
+    :local(.box_favorite_photographer_liked_header i) {
+        font-size: 20px;
+
+    }
+    :local(.btn_next){
+        display: none;
+    }
+}
+
+/* ----------- iPhone X ----------- */
+
+/* Portrait and Landscape */
+@media only screen
+and (min-device-width: 375px)
+and (max-device-width: 812px)
+and (-webkit-min-device-pixel-ratio: 3) {
+
+}
+
+/* Portrait */
+@media only screen
+and (min-device-width: 375px)
+and (max-device-width: 812px)
+and (-webkit-min-device-pixel-ratio: 3)
+and (orientation: portrait) {
+
+}
+
+/* Landscape */
+@media only screen
+and (min-device-width: 375px)
+and (max-device-width: 812px)
+and (-webkit-min-device-pixel-ratio: 3)
+and (orientation: landscape) {
+
+    #list_photographers .card-pgr .wrap-heart i {
+        top: calc(50% + 6px);
+    }
+    :local(.thumbnail) {
+        width: 100px;
+        padding: 10px;
+        margin-right: 10px;
+        float: left;
+    }
+    :local(.right_info) {
+        float: left;
+        width: calc(100% - 120px);
+        padding: 10px;
+        position: relative;
+
+    }
+
+    #list_photographers:not(.needShowChangeDateForm){
+        width: calc(100% - 200px);
+        float: right;
+        padding: 20px 0 !important;
+    }
+    #list_photographers :local(.box_favorite_photographer_liked) {
+        width: 200px;
+        left: 0;
+        top: 79px !important;
+
+    }
+    #list_photographers .ant-col-xs-24.ant-col-xs-offset-0.ant-col-sm-20.ant-col-sm-offset-2.ant-col-md-18.ant-col-md-offset-3.ant-col-lg-20.ant-col-lg-offset-2.ant-col-xl-16.ant-col-xl-offset-4{
+        width: 100%;
+        margin-left: 10px;
+        padding-right: 10px;
+    }
+    #list_photographers :local(.box_favorite_photographer_liked:before){
+        display: none;
+    }
+    :local(.box_favorite_photographer_liked_header span) {
+        font-size: 14px;
+    }
+    :local(.card) {
+        padding-right: 0;
+    }
+
+    .viewprofile-label{
+        display: none;
+    }
+    :local(.btn_next_sticky){
+        display: none;
+    }
+    :local(.box_favorite_photographer_liked_header i) {
+        font-size: 20px;
+
+    }
+    :local(.btn_next){
+        display: none;
+    }
+}

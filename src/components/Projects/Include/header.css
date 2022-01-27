@@ -1,0 +1,99 @@
+:local(.header) {
+    margin-bottom: 20px;
+}
+:local(.btn_view_mode) {
+    padding: 5px 25px;
+    cursor: pointer;
+    margin-top: 5px;
+    display: inline-block;
+    color: #4b4b4b;
+    position: relative;
+}
+:local(.btn_view_mode > i) {
+    position: absolute; left: 5px;
+    top:9px;
+}
+:local(.active){
+    color: #0f65a9;
+    background: #f6f8f9;
+    border: 1px solid #eaeaea;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border-bottom: 0;
+}
+
+:local(.filter_type){
+    float: right;
+    padding-right: 20px;
+    width: 100%;
+    text-align: right;
+}
+.filter_type span.active{
+    background: #f57700;
+    color: white;
+}
+:local(.filter_type span){
+    padding: 5px 10px;
+    background: #ddd;
+    display: inline-block;
+    margin-left: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+
+}
+
+:local(.list_status_right){
+
+    padding-top:20px;
+    float: right;
+
+}
+:local(.list_status_right li){
+    display: inline-block;
+    float: left;
+    padding: 5px 10px;
+}
+
+:local(.list_status_right li span){
+    font-size: 14px;
+    color: #4b4b4b;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+:local(.list_status_right li span.active_status){
+    color: #0f65a9 ;
+    font-weight: bold;
+
+}
+
+@media screen and (max-width: 1200px){
+    :local(.btn_view_mode) {
+        padding: 5px 40px;
+    }
+    :local(.list_status_right li){
+        padding: 5px 15px;
+    }
+}
+@media screen and (max-width: 992px){
+    :local(.list_status_right li){
+        padding: 5px 30px;
+    }
+}
+@media screen and (max-width: 768px){
+    :local(.list_status_right li){
+        padding: 5px 20px;
+    }
+
+
+    :local(.filter_type){
+        float: right;
+        padding-right: 20px;
+        width: 100%;
+        text-align: right;
+        position: fixed;
+        top: 5px;
+        z-index: 12222;
+        right: -15px;
+    }
+
+}

@@ -1,0 +1,126 @@
+
+.loadingfb{
+    opacity: 0.5;
+}
+
+.wrap-login-form .ant-input-affix-wrapper .ant-input:not(:first-child) {
+    padding-left: 30px;
+    border: 0px;
+    height: 38px;
+    border-radius: 6px;
+    border: 1px solid #7b7b7b;
+
+}
+:local(.col-login){
+    padding-top: 40px;
+    border-radius: 5px;
+}
+:local(.login_form ){
+    margin: auto;
+    max-width: 425px;
+    padding: 30px 50px;
+    background: rgba(255,255,255,.3);
+    border-radius: 4px;
+    color: white;
+}
+
+:local(.login_form h2 ){
+    font-size: 25px;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #4b4b4b;
+}
+:local(.login_form h2 span){
+    color:#4b4b4b;
+}
+
+
+:local(.input){
+    font-size:15px;
+}
+:local(.forgot ){
+    float: right;
+}
+:local(.button:hover ){
+    background: #f16704 !important;
+}
+:local(.button ){
+    width: 100%;
+    border-radius: 5px;
+    background: #ff6a00 !important;
+    border: 0;
+    height: 36px;
+}
+:local(.footer ){
+    text-align: center;
+    line-height: 50px;
+    padding: 0;
+    color: #f16704;
+}
+
+:local(.footer li ){
+    display: inline-block;
+    margin: 0 5px;
+}
+
+#layout_auth  .ant-form-item{
+    color: white !important;
+}
+#layout_auth   .ant-checkbox-checked .ant-checkbox-inner,#layout_auth   .ant-checkbox-indeterminate .ant-checkbox-inner {
+    background-color: #25282e;
+    border-color: #31302f;
+}
+
+
+
+
+.social-login-buttons {
+    margin-bottom: 30px;
+}
+.social-login-buttons button {
+    display: block !important;
+    color: #fff;
+    cursor: pointer;
+    width: 100%;
+    margin: 10px 0 0 0;
+    padding: 5px;
+    border-radius: 17px !important;
+    box-shadow: none !important;
+    font-size: 13px !important;
+    height: 36px !important;
+    font-weight: 300 !important;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: none;
+}
+.google-button{
+    background: #f44502 ;
+}
+.linked-button {
+    background: #0f72a3 ;
+}
+.facebook-button{
+    background-color: #4c69ba;
+}
+@media only screen
+and (min-device-width : 414px)
+and (max-device-height : 896px)
+and (-webkit-device-pixel-ratio : 3)
+and (orientation : landscape) {
+
+    :local(.login_form ){
+        margin: auto;
+        max-width: 300px;
+        padding: 30px 20px;
+        background: rgba(255,255,255,.3);
+        border-radius: 4px;
+        margin-top: 10px;
+        color: white;
+    }
+    :local(.login_form h2 ){
+        font-size: 17px;
+
+    }
+
+}
